@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Database ids  -->
+    <string name="server">https://fra.cloud.appwrite.io/v1</string>
+    <string name="projectId">6829baed00384fcf5a57</string>
+    <string name="databaseId">6829bd41001be6cf973b</string>
+    <string name="userCollectionId">6829bd5b0023262efee7</string>
+    <string name="tasksCollectionId">6829bd66000c3437d694</string>
+    <string name="locationCollectionId">6829bd7c003292340088</string>
+    <string name="attendanceCollectionId">6829bd8500092a9b44d2</string>
+
+
+    <!--  user collection keys  -->
+    <string name="roleKey">role</string>                    <!-- int ( Admin(0) / User(1) ) -->
+    <string name="nameKey">name</string>                    <!-- string -->
+    <string name="emailKey">email</string>                  <!-- string -->
+    <string name="passKey">password</string>                <!-- string -->
+    <string name="designationKey">designation</string>      <!-- string -->
+    <string name="fcmKey">fcm</string>                      <!-- string -->
+    <string name="creatorKey">creator</string>              <!-- string (admin empID) -->
+    <string name="workerKey">worker</string>                <!-- string (user empID) -->
+
+
+    <!--  task collection keys  -->
+    <string name="taskKey">task</string>                    <!-- string (task unique ID) -->
+    <string name="statusKey">status</string>                <!-- int ( idle (0) / started (1) / completed(2) ) -->
+    <string name="titleKey">title</string>                  <!-- string -->
+    <string name="descKey">desc</string>                    <!-- string -->
+    <string name="dueKey">due</string>                      <!-- string (due date) -->
+    <string name="updatesKey">updates</string>              <!-- string -->
+
+
+    <!--  location collection keys  -->
+    <string name="latKey">latitude</string>                 <!-- float -->
+    <string name="longKey">longitude</string>               <!-- float -->
+    <string name="timeStampKey">timestamp</string>          <!-- int -->
+    <string name="batteryKey">timestamp</string>            <!-- float -->
+    <string name="eventKey">event</string>                  <!-- string -->
+
+
+    <!--  attendance collection keys  -->
+    <string name="dateKey">date</string>                    <!-- string (date) -->
+    <string name="loggedKey">logged</string>                <!-- string (logged time) -->
+    <string name="loginKey">login</string>                  <!-- string (punch in time) -->
+
+
+</resources>
