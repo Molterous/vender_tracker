@@ -70,9 +70,8 @@ suspend fun fetchAndStoreLoc(applicationContext: Context, taskId: String = "", e
     if (location != null && !username.isNullOrBlank() && !empId.isNullOrBlank()) {
 
         val client = Client(applicationContext)
-            .setEndpoint("https://fra.cloud.appwrite.io/v1")
-            .setProject("6829baed00384fcf5a57")
-//            .setSelfSigned(status = true)
+            .setEndpoint("") // app-write-endpoint
+            .setProject("")  // app-write-project-Id
 
         LocationRepositoryAppwrite(Databases(client)).insertLocation(
             location = LocationEntity(

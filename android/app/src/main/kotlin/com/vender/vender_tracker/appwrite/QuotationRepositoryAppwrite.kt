@@ -9,8 +9,8 @@ import kotlinx.coroutines.withContext
 
 class QuotationRepositoryAppwrite(
     private val databases: Databases,
-    private val collectionId: String = "68360df60034fa71e9b9",
-    private val dbId: String = "6829bd41001be6cf973b"
+    private val collectionId: String = "",
+    private val dbId: String = ""
 ) {
     suspend fun addQuotation(q: QuotationEntity): String? = withContext(Dispatchers.IO) {
         try {

@@ -9,8 +9,8 @@ import kotlinx.coroutines.withContext
 
 class TaskRepositoryAppwrite(
     private val databases: Databases,
-    private val collectionId: String = "6829bd66000c3437d694",
-    private val dbId: String = "6829bd41001be6cf973b"
+    private val collectionId: String = "",
+    private val dbId: String = ""
 ) {
 
     suspend fun getAllTasks(): List<TaskEntity> = withContext(Dispatchers.IO) {

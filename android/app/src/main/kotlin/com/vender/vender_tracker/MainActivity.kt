@@ -42,10 +42,9 @@ class MainActivity: FlutterActivity() {
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
 
-        client = Client(context)
-            .setEndpoint("https://fra.cloud.appwrite.io/v1")
-            .setProject("6829baed00384fcf5a57")
-//            .setSelfSigned(status = true)
+        client = Client(applicationContext)
+            .setEndpoint("") // app-write-endpoint
+            .setProject("")  // app-write-project-Id
 
         val db = Databases(client)
 

@@ -9,8 +9,8 @@ import kotlinx.coroutines.withContext
 
 class LocationRepositoryAppwrite(
     private val databases: Databases,
-    private val collectionId: String = "6829bd7c003292340088",
-    private val dbId: String = "6829bd41001be6cf973b"
+    private val collectionId: String = "",
+    private val dbId: String = ""
 ) {
     suspend fun insertLocation(location: LocationEntity): String? = withContext(Dispatchers.IO) {
         try {
