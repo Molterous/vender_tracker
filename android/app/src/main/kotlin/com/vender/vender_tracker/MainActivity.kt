@@ -677,8 +677,21 @@ class MainActivity: FlutterActivity() {
                                         note = call.argument("note") ?: "",
                                         taskId = call.argument("taskId") ?: "",
                                         worker = call.argument("worker") ?: "",
-                                        services = call.argument("services") ?: "",
-                                        modifiedDate = call.argument("modifiedDate") ?: ""
+                                        modifiedDate = call.argument("modifiedDate") ?: "",
+                                        serviceName = call.argument("serviceName") ?: "",
+                                        serviceType = call.argument("serviceType") ?: "",
+                                        serviceCharges = call.argument("serviceCharges") ?: "",
+                                        serviceUnit = call.argument("serviceUnit") ?: "",
+                                        serviceRemark = call.argument("serviceRemark") ?: "",
+                                        docketCharges = call.argument("docketCharges") ?: "",
+                                        hamaliCharges = call.argument("hamaliCharges") ?: "",
+                                        doorDelivery = call.argument("doorDelivery") ?: "",
+                                        pfCharges = call.argument("pfCharges") ?: "",
+                                        greenTaxCharge = call.argument("greenTaxCharge") ?: "",
+                                        fovCharges = call.argument("fovCharges") ?: "",
+                                        gstCharges = call.argument("gstCharges") ?: "",
+                                        otherCharges = call.argument("otherCharges") ?: "",
+                                        totalCharges = call.argument("totalCharges") ?: "",
                                     )
                                 )
                                 result.success(id)
@@ -705,8 +718,21 @@ class MainActivity: FlutterActivity() {
                                         note = call.argument("note") ?: "",
                                         taskId = call.argument("taskId") ?: "",
                                         worker = call.argument("worker") ?: "",
-                                        services = call.argument("services") ?: "",
-                                        modifiedDate = call.argument("modifiedDate") ?: ""
+                                        modifiedDate = call.argument("modifiedDate") ?: "",
+                                        serviceName = call.argument("serviceName") ?: "",
+                                        serviceType = call.argument("serviceType") ?: "",
+                                        serviceCharges = call.argument("serviceCharges") ?: "",
+                                        serviceUnit = call.argument("serviceUnit") ?: "",
+                                        serviceRemark = call.argument("serviceRemark") ?: "",
+                                        docketCharges = call.argument("docketCharges") ?: "",
+                                        hamaliCharges = call.argument("hamaliCharges") ?: "",
+                                        doorDelivery = call.argument("doorDelivery") ?: "",
+                                        pfCharges = call.argument("pfCharges") ?: "",
+                                        greenTaxCharge = call.argument("greenTaxCharge") ?: "",
+                                        fovCharges = call.argument("fovCharges") ?: "",
+                                        gstCharges = call.argument("gstCharges") ?: "",
+                                        otherCharges = call.argument("otherCharges") ?: "",
+                                        totalCharges = call.argument("totalCharges") ?: "",
                                     )
                                 )
                                 result.success(id)
@@ -755,8 +781,21 @@ class MainActivity: FlutterActivity() {
                                         "note" to quotation.note,
                                         "taskId" to quotation.taskId,
                                         "worker" to quotation.worker,
-                                        "services" to quotation.services,
-                                        "modifiedDate" to quotation.modifiedDate
+                                        "modifiedDate" to quotation.modifiedDate,
+                                        "serviceName" to quotation.serviceName,
+                                        "serviceType" to quotation.serviceType,
+                                        "serviceCharges" to quotation.serviceCharges,
+                                        "serviceUnit" to quotation.serviceUnit,
+                                        "serviceRemark" to quotation.serviceRemark,
+                                        "docketCharges" to quotation.docketCharges,
+                                        "hamaliCharges" to quotation.hamaliCharges,
+                                        "doorDelivery" to quotation.doorDelivery,
+                                        "pfCharges" to quotation.pfCharges,
+                                        "greenTaxCharge" to quotation.greenTaxCharge,
+                                        "fovCharges" to quotation.fovCharges,
+                                        "gstCharges" to quotation.gstCharges,
+                                        "otherCharges" to quotation.otherCharges,
+                                        "totalCharges" to quotation.totalCharges,
                                     )
                                     quotationsMap[quotation.quotationId] = t
                                 }
@@ -789,8 +828,21 @@ class MainActivity: FlutterActivity() {
                                         "note" to quotation.note,
                                         "taskId" to quotation.taskId,
                                         "worker" to quotation.worker,
-                                        "services" to quotation.services,
-                                        "modifiedDate" to quotation.modifiedDate
+                                        "modifiedDate" to quotation.modifiedDate,
+                                        "serviceName" to quotation.serviceName,
+                                        "serviceType" to quotation.serviceType,
+                                        "serviceCharges" to quotation.serviceCharges,
+                                        "serviceUnit" to quotation.serviceUnit,
+                                        "serviceRemark" to quotation.serviceRemark,
+                                        "docketCharges" to quotation.docketCharges,
+                                        "hamaliCharges" to quotation.hamaliCharges,
+                                        "doorDelivery" to quotation.doorDelivery,
+                                        "pfCharges" to quotation.pfCharges,
+                                        "greenTaxCharge" to quotation.greenTaxCharge,
+                                        "fovCharges" to quotation.fovCharges,
+                                        "gstCharges" to quotation.gstCharges,
+                                        "otherCharges" to quotation.otherCharges,
+                                        "totalCharges" to quotation.totalCharges,
                                     )
                                     quotationsMap[quotation.quotationId] = t
                                 }
@@ -820,8 +872,21 @@ class MainActivity: FlutterActivity() {
                                         "note" to quotation.note,
                                         "taskId" to quotation.taskId,
                                         "worker" to quotation.worker,
-                                        "services" to quotation.services,
-                                        "modifiedDate" to quotation.modifiedDate
+                                        "modifiedDate" to quotation.modifiedDate,
+                                        "serviceName" to quotation.serviceName,
+                                        "serviceType" to quotation.serviceType,
+                                        "serviceCharges" to quotation.serviceCharges,
+                                        "serviceUnit" to quotation.serviceUnit,
+                                        "serviceRemark" to quotation.serviceRemark,
+                                        "docketCharges" to quotation.docketCharges,
+                                        "hamaliCharges" to quotation.hamaliCharges,
+                                        "doorDelivery" to quotation.doorDelivery,
+                                        "pfCharges" to quotation.pfCharges,
+                                        "greenTaxCharge" to quotation.greenTaxCharge,
+                                        "fovCharges" to quotation.fovCharges,
+                                        "gstCharges" to quotation.gstCharges,
+                                        "otherCharges" to quotation.otherCharges,
+                                        "totalCharges" to quotation.totalCharges,
                                     )
                                     quotationsMap[quotation.quotationId] = t
                                 }

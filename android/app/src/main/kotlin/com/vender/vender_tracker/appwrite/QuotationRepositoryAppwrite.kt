@@ -98,7 +98,20 @@ class QuotationRepositoryAppwrite(
         taskId = data["taskId"] as String,
         modifiedDate = data["modifiedDate"] as String,
         quotationId = this.id,
-        services = data["services"] as String
+        serviceName = data["serviceName"] as String,
+        serviceType = data["serviceType"] as String,
+        serviceCharges = data["serviceCharges"] as String,
+        serviceUnit = data["serviceUnit"] as String,
+        serviceRemark = data["serviceRemark"] as String,
+        docketCharges = data["docketCharges"] as String,
+        hamaliCharges = data["hamaliCharges"] as String,
+        doorDelivery = data["doorDelivery"] as String,
+        pfCharges = data["pfCharges"] as String,
+        greenTaxCharge = data["greenTaxCharge"] as String,
+        fovCharges = data["fovCharges"] as String,
+        gstCharges = data["gstCharges"] as String,
+        otherCharges = data["otherCharges"] as String,
+        totalCharges = data["totalCharges"] as String,
     )
 
     private fun QuotationEntity.toMap(): Map<String, Any> = mapOf(
@@ -108,6 +121,19 @@ class QuotationRepositoryAppwrite(
         "worker" to worker,
         "taskId" to taskId,
         "modifiedDate" to modifiedDate,
-        "services" to services
+        "serviceName" to serviceName,
+        "serviceType" to serviceType,
+        "serviceCharges" to serviceCharges,
+        "serviceUnit" to serviceUnit,
+        "serviceRemark" to serviceRemark,
+        "docketCharges" to docketCharges,
+        "hamaliCharges" to hamaliCharges,
+        "doorDelivery" to doorDelivery,
+        "pfCharges" to pfCharges,
+        "greenTaxCharge" to greenTaxCharge,
+        "fovCharges" to fovCharges,
+        "gstCharges" to gstCharges,
+        "otherCharges" to otherCharges,
+        "totalCharges" to totalCharges,
     )
 }

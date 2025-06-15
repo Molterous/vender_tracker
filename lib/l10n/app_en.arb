@@ -96,5 +96,10 @@
     "pleaseSelectTask": "Please select task",
     "notes": "Notes",
     "service": "Service",
-    "cost": "Cost"
+    "cost": "Cost",
+    "type": "Type",
+    "charges": "Charges",
+    "units": "Units",
+    "remark": "Remark",
+    "total": "Total"
 }
